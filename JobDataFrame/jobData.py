@@ -67,6 +67,8 @@ while True:
 # Save the updated DataFrame to the CSV file
 df.to_csv(file_path, index=False)
 
+num_rows = len(df)
+print(f"{num_rows} jobs applied to! Keep it up :)")
 print("\nFinal DataFrame:")
 print(df)
 
